@@ -1,0 +1,904 @@
+.App {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .App {
+    text-align: center;
+  }
+  
+  .BlogPage{
+    width:100vw;
+    padding-top:20px;
+    border:2px solid green;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  
+  }
+  .Blogheader{
+    width:100%;
+    height:40px;
+    font-size: 2rem;
+    /* position: absolute; */
+    padding:20px;
+    
+  
+  }
+  .Card{
+    width:80%;
+    margin:10px;
+    /* height:200px; */
+    border:1px solid black;
+    display: flex;
+    flex-direction:column;
+  }
+  
+  .Card  .Heading{
+  height:50px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:bold;
+  font-size: 1.5rem;
+  }
+  .Card  .cardFooter{
+  height:20px;
+  background-color: beige;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  }
+  .Card  .cardFooter div{
+  padding:10px;
+  
+  }
+  
+  .Liked{
+    color:red;
+    /* background-color: red;; */
+  }
+  
+  
+  /* ===============Test css================== */
+  /* .Quiz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vw;
+    border:2px solid red;
+  } */
+  .testdiv{
+    display: center;
+    justify-content: center;
+  }
+  .container {
+  
+    /* border:2px solid red; */
+    display: flex;
+    align-items: center;
+    padding:2px 10px;
+    flex-direction: column;
+    min-height:300px;
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px 1px #333;  
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .nextbutton{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .question{
+    margin:8px;
+    box-shadow: 0px 0px 10px 1px #a2a3a3;
+    border-radius: 5px;
+    padding:2px;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #question-number{
+    margin-right: 5px;
+  }
+  .option-container{
+    display: flex;
+    flex-direction: column;
+    margin:6px 4px;    
+    width: 100%;
+    padding: 10px;
+  }
+  /* .option-container input{
+    visibility: hidden;    
+  } */
+  .option-btn{
+    box-shadow: 0px 0px 4px 1px rgb(128, 123, 123);
+    padding: 5px;
+    border-radius: 3px;
+    border:none;
+    outline: none;
+    transition: 0.3s;
+    margin: 5px;
+    min-height: 30px;
+    background-color: white;
+  }
+  
+  .checked{
+    background-color: rgb(179, 83, 179);
+    color:white;
+    box-shadow: 3px 3px 4px 1px rgb(78, 69, 78);
+  }
+  .option-btn:hover{
+    background-color: rgb(212, 118, 212);
+    color:white;
+  }
+  #next-button{
+    padding:10px;
+    border:none;
+    background-color: purple;
+    background-color: #276272;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px 1px rgb(127, 109, 109);
+    font-size: larger;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.2s;
+    width:100px;
+    position: absolute;
+    bottom: 15px;
+  }
+  #next-button:active{
+    box-shadow:none;    
+  }
+  .show-score{
+    position: absolute;
+    top:30%;
+    font-size: 40px;
+    text-align: center;  
+  }
+  
+  
+  /* ============score result css======== */
+  
+  .ScoreResult{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .information .heading{
+    width:100vw;
+    height:40px;
+    padding:10px;
+    font-weight:700;
+    background-color: #276272;
+  }
+  
+  .information .info{
+    width:100vw;
+    /* height:40px; */
+    padding:10px;
+    font-weight:400;
+    background-color: #9dc8d4;
+  }
+  
+  
+  /* ============meeting page css======== */
+  
+  .Meetingpage{
+    padding-top:100px;
+    width:100vw;
+    height:100vh;
+    /* border:2px solid red;
+    background-color: #9dc8d4; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Meetingpage .newMeetingdiv{
+    /* border:2px solid red; */
+   width:80vw;
+   display: flex;
+   justify-content:flex-end;
+  /* box-sizing: border-box; */
+   height:30px;
+   background-color: #9dc8d4;
+   /* padding:40px; */
+  margin:20px;
+  }
+  
+  .Meetingpage .newMeetingdiv button{
+    border:0px;
+    border-radius: 5px;
+    background-color: rgb(4, 170, 109);
+  }
+  
+  .Meetingpage .meetingBox {
+    /* padding-top:40px; */
+    width:80vw;
+    display: flex;
+    /* justify-content:flex-end; */
+    /* height:50px; */
+    background-color: #ffffff;
+    /* padding:40px; */
+   /* margin:20px; */
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   /* overflow: hidden; */
+  }
+  
+  .Meetingpage .meetingBox .meetingheading{
+    /* padding-bottom: 20px;; */
+  width:100%;
+  /* height:60px; */
+  font-weight: 700;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  /* margin:10px;
+  display: flex; */
+  /* justify-content: flex-start; */
+  /* padding-top:200px; */
+  /* border:2px solid grey; */
+  }
+  .meetinglink{
+    cursor: pointer;
+    color:blue;
+  }
+  
+  .Meetingpage .meetingBox .futureMeetingList{
+    /* border:1px solid black; */
+    /* border-bottom: 2px solid grey; */
+    /* box-shadow: 2px 3px 2px  1px rgba(119, 239, 239, 0.365);; */
+    width:100%;
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* box-sizing: border-box; */
+    row-gap:15px;
+    height:500px;
+  scrollbar-width: 1px;
+  /* border:1px solid red; ; */
+  overflow: auto;
+  
+  }
+  .Meetingpage .meetingBox .futureMeetingList .topsection{
+    /* border:1px solid black; */
+    width:100%;
+    display: flex;
+    flex-direction: row;
+  justify-content:space-between;
+  font-weight: 700;
+  background-color: rgba(122, 125, 125, 0.961);
+  
+  /* margin:10px; */
+  }
+  .MeetingCard{
+    border-bottom:2px solid #a39c9c;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    margin:5px;
+    box-sizing: border-box;
+    /* border-radius: 15px; */
+  }
+  .Meetingpage .meetingBox .futureMeetingList .description{
+    width:100%;
+    background-color: rgba(186, 198, 198, 0.53);
+    display: flex;
+    justify-content: flex-start;
+    /* border-radius: 0 0 15px 15px; */
+  }
+  .datetimediv{
+    font-size: medium;
+    font-weight: 500;
+  }
+  /* ===========pop uo form css================== */
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-inner {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+  }
+  
+  .popup form {
+    margin-bottom: 10px;
+  }
+  
+  .popup label {
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .popup input[type="text"],
+  .popup input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .popup button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .popup button[type="submit"] {
+    background-color: #28a745; /* Green */
+  }
+  
+  .popup button[type="submit"]:hover,
+  .popup button[type="button"]:hover {
+    background-color: #007bff;
+  }
+  
+  .popup button[type="button"] {
+    background-color: #dc3545; /* Red */
+  }
+  
+  .popup button[type="button"]:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  
+  /* ===========calender========= */
+  
+  .calender{
+    /* max-width:100vw; */
+    width:100vw;
+    height:100vh;
+    padding-top:100px;
+    /* border:2px solid red; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: #276272; */
+  }
+  .calender .uploadFile{
+    width:90%;
+    height:40px;
+    background-color: #2a96b784;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+    margin:10px;
+  }
+  
+  .calender .uploadFile .div1{
+    font-weight: 800;
+    padding: 50px;
+  }
+  .calender .CalenderDisplay{
+    overflow: auto;
+    gap:5px;
+  }
+  .calender  .callenderheading{
+    font-size: larger;
+  }
+  .CalenderCard{
+    /* width:600px; */
+    border:1px solid rgb(0, 0, 0);
+    font-size: 1rem;
+    display: flex;
+    margin:5px;
+    /* padding:5px; */
+    flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #b3b4b5;
+  border-radius: 5px;
+  }
+  
+  .CalenderCard  .date{
+    color:rgb(23, 22, 22);
+    font-size: large;
+  }
+  .CalenderCard  div{
+  padding:10px;
+  }
+  .CalenderCard .date{
+  width:140px;
+  }
+  .CalenderCard .event-description{
+  display: flex;
+  flex-direction: column;
+  
+    }
+  .CalenderCard .separator{
+  width:400px;
+  height:1px;
+  background-color: #333;
+    }
+  
+  
+    /* ==========payment css=============== */
+    .Payment {
+      border:1px solid red;
+      width:100vw;
+      height:100vh;
+      display: flex;
+      justify-content:space-evenly;
+      align-items: center;
+      margin: auto;
+      padding: 20px;
+      /* border: 1px solid #ccc; */
+      border-radius: 5px;
+    }
+    
+    .Payment   .formdiv{
+      margin-top:100px;
+      width:500px;
+      padding:10px;
+      border:4px solid black;
+      border-radius:10px;
+    }
+    .Payment h2 {
+      margin-bottom: 20px;
+    }
+    
+    .Payment label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    .Payment input[type="text"],
+    .Payment select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    .Payment button[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .Payment button[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  
+    
+  
+  .Paymentsuccess{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0056b3;
+    
+  
+  }
+  .Paymentsuccess .paymentsuccesscard{
+    width:60%;
+    border:2px solid rgb(3, 3, 3);
+    height:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Paymenthistory{
+    width:100vw;
+    padding-top:100px;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7892ad;
+    flex-direction: column;
+  }
+  .Paymenthistory .paymentHeading{
+    width:80%;
+    border:1px solid rgb(3, 3, 3);
+    /* height:90%; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:5px;
+    font-size: larger;
+    background-color: #0056b3;
+    padding:20px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+  }
+  .Paymenthistory .paymentcard{
+    width:80%;
+    border:1px solid rgb(121, 121, 121);
+    height:90%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap:5px;
+    box-shadow: 2px 3px 3px grey;
+  
+  }
+  .Paymenthistory .paymentcard .HistroyCard{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgb(112, 110, 110);
+    padding:10px;
+  }
+  .Paymenthistory .paymentcard .HistroyCard div{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  /* =================== */
+  
+
+  :root {
+    --color-main: #ffffff;
+    --color-secondary: #f6f7f8;
+    --color-tertiary: #cccccc;
+    --color-primary: #187cff;
+    --color-border: #2E2E3B;
+    --color-spot: #1ED760;
+  
+    --text-light: #ffffff;
+    --text-dark: #2E2E3B;
+    --box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+    --box-shadow-sm: 0 10px 20px rgb(0 0 0 / 10%);
+    
+    --transition-duration: .3s;
+  
+    --border-radius: 14px;
+    --border-radius-sm: 4px;
+    --color-warning: #ffc956;
+    --color-danger: #ff5e59;
+    --color-success: #55f16c;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *::-webkit-scrollbar {
+    display: none;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+  
+  body {
+    margin: 0;
+    font-family: Rubik,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    background-repeat: repeat;
+  }
+  
+  .container {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 0 12px;
+  }
+  .btn {
+    background-color: var(--text-dark);
+    border-radius: var(--border-radius-sm);
+    border: 1px solid var(--color-border);
+    color: #ffffff;
+    align-items: center;
+    fill: #ffffff;
+    padding: 6px 8px;
+    cursor: pointer;
+    display: flex;
+    gap: 8px;
+    transition-duration: var(--transition-duration);
+    user-select: none;
+  }
+  
+  .btn:hover {
+    color: var(--text-dark);
+    background-color: var(--text-light);
+  }
+  .btn:active {
+    color: var(--text-light);
+    background-color: var(--text-dark);
+  }
+  
+  .btn.btn-secondary {
+    color: var(--text-dark);
+    background-color: var(--text-light);
+  }
+  .btn.btn-secondary:active,
+  .btn.btn-secondary:hover {
+    color: var(--text-light);
+    background-color: var(--text-dark);
+  }
+  
+  .btn.btn-primary {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--text-light);
+  }
+  
+  .btn.btn-primary:hover {
+    opacity: .75;
+  }
+  .btn.btn-primary:active {
+    opacity: 1;
+  }
+  
+  .text-danger {
+    color: var(--color-danger);
+  }
+  
+  .btn svg {
+    margin-left: 8px;
+  }
+  
+  .hidden1 {
+    opacity: 0;
+    height: 0;
+    border: 0;
+    position: absolute;
+  }
+  
+  .blinker {
+    color: var(--color-primary);
+    animation: blinker 1s infinite;
+  }
+  
+  @keyframes blinker {
+      0% {
+        color: var(--color-primary);
+      }
+      50% {
+        color: transparent;
+      }
+      100% {
+        color: var(--color-primary);
+      }
+  }
+  
+
+  
+  .tic-tac-toe {
+    width: fit-content;
+    margin:5px auto;
+    text-align: center;
+    padding:10px;
+    border-radius:10px;
+    background-color:rgb(228, 214, 247);
+  }
+
+  
+
+  
+
+  .tic-tac-toe .game {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .turn {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    width: fit-content;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+  .turn .square,
+  .winner .square {
+    width: 70px;
+    height: 70px;
+    pointer-events: none;
+    border-color: transparent;
+  }
+  
+  .turn .square span.x::before,
+  .turn .square span.x::after {
+    background: #222;
+    transition: 0.2s;
+  }
+  
+  .turn .square span.o {
+    transition: 0.2s;
+    border-color: #222;
+  }
+  
+  .turn::after {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 100%;
+    top: 0;
+    background: #49ff58;
+    border-radius: 9px;
+    z-index: -1;
+    transition: 0.2s;
+  }
+  
+  .turn.left::after {
+    left: 0;
+  }
+  
+  .turn.left span.o {
+    border-color: #eee;
+  }
+  .turn.right span.x::before,
+  .turn.right span.x::after {
+    background: #eee;
+  }
+  .turn.right::after {
+    left: 50%;
+  }
+  
+  .winner {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .winner .text {
+    background: #111;
+    width: 70%;
+    max-width: 400px;
+    height: 300px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .winner .text h2 {
+    font-size: 2.5em;
+    margin: 15px 0;
+    color: #eee;
+  }
+  
+  .winner .win {
+    margin: 0 auto;
+    width: fit-content;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+  }
+
+  /* ========================= */
+
+  .Games{
+    padding-top:20px;
+  }
+  .blogvideodecider{
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+    background-color: #007bff;
+    width:90%;
+    /* position:fixed; */
+    top:10px;
+    gap:5px;
+  
+  }
+  .blogvideodecider button{
+    display: flex;
+    flex-direction: row;
+    background-color: #828487;
+    width:20%;
+    padding:10px;
+  }
+  .blogactive{
+    background-color:blue;
+  }
+  
+  .BlogPage .content{
+    width:90%;
+    /* border:1px solid red; */
+    height:100vh;
+    overflow-y:auto ;
+    /* position: absolute; */
+    bottom:80vh;
+  }
+  .BlogPage .videosection{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .BlogPage .textsection{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .videosection {
+    /* overflow-x: auto; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .videos-container {
+      overflow-y:auto;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+  }
+  
+  .video-item {
+    margin-right: 10px;
+    padding:10px;
+  }
+  
+  .videosection,.textheading{
+    /* background-color: #0056b3; */
+    font-size:2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+  }
