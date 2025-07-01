@@ -1,0 +1,75 @@
+{
+    "blogData": [
+      {
+        "id": 1,
+        "title": "The Power of Parental Involvement in a Child’s Academic Success?",
+        "description": "Parental engagement in children's studies significantly improves their academic performance. When parents take an active interest in their child's education, it boosts motivation, improves focus, and helps children develop better study habits. Studies show that students with involved parents perform better in school, have higher grades, and are more likely to succeed in their careers.",
+        "likes": 10,
+        "dislikes": 2
+      },
+      {
+        "id": 2,
+        "title": "How Parental Support Enhances Children's Mental Health?",
+        "description": "Parents who support their children’s learning contribute to their mental well-being. Encouraging children, providing emotional support, and helping them manage stress build their confidence. A supportive home environment reduces anxiety, helps children handle academic pressure, and improves their emotional resilience. Parents can help by assisting with homework, attending school events, and maintaining communication with teachers.",
+        "likes": 8,
+        "dislikes": 1
+      },
+      {
+        "id": 3,
+        "title": "The Role of Parent Engagement in Developing Stronger Study Habits",
+        "description": "When parents set study schedules, help children organize their assignments, and encourage daily reading, it leads to disciplined study habits. Children learn time management, develop a love for learning, and stay consistent in their studies, ultimately leading to long-term academic success. Reading together helps develop literacy skills, strengthens parent-child bonding, and boosts academic performance.",
+        "likes": 15,
+        "dislikes": 3
+      },
+      {
+        "id": 4,
+        "title": "Psychological Benefits of Parents Being Involved in Their Child’s Education",
+        "description": "Parental involvement fosters a strong parent-child bond, which enhances emotional security. Children who feel supported and guided by their parents develop better self-esteem, show improved social skills, and have a positive attitude toward learning. A child’s emotional stability is directly linked to their academic confidence. Teaching children to embrace challenges and learn from failures enhances resilience and motivation.",
+        "likes": 12,
+        "dislikes": 2
+      },
+      {
+        "id": 5,
+        "title": "How Parent Engagement Contributes to a Child’s Physical Development",
+        "description": "Parental involvement is not just about academics but also physical well-being. Parents who encourage physical activities alongside studies help their children maintain a healthy balance. Regular exercise, outdoor play, and sports improve concentration, reduce stress, and enhance brain function. Providing a structured environment and support for homework improves learning outcomes.",
+        "likes": 9,
+        "dislikes": 2
+      },
+      {
+        "id": 6,
+        "title": "Parents as Role Models: The Impact on a Child’s Learning Attitude",
+        "description": "Children often imitate their parents’ behavior. When they see their parents reading, learning new skills, or showing curiosity, they develop a similar attitude toward education. A home environment that values learning encourages children to strive for excellence. Children mimic their parents' behavior, making it essential to model good habits and attitudes.",
+        "likes": 13,
+        "dislikes": 4
+      },
+      {
+        "id": 7,
+        "title": "Parent-Teacher Collaboration for Better Outcomes",
+        "description": "Regular interaction between parents and teachers fosters student success.",
+        "likes": 11,
+        "dislikes": 2
+      },
+      {
+        "id": 8,
+        "title": "Helping Children Develop Time Management Skills",
+        "description": "Time management is key to academic success, and parents play a vital role in teaching it.",
+        "likes": 10,
+        "dislikes": 3
+      },
+      {
+        "id": 9,
+        "title": "Creating a Learning-Friendly Home Environment",
+        "description": "A well-organized and positive home setting enhances a child's learning experience.",
+        "likes": 14,
+        "dislikes": 2
+      },
+      {
+        "id": 10,
+        "title": "Balancing Screen Time and Studies",
+        "description": "Managing screen time effectively is essential for a child's academic growth.",
+        "likes": 12,
+        "dislikes": 2
+      }
+    ]
+  }
+  
